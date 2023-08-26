@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GUI.iml" filepath="$PROJECT_DIR$/GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-phone-book-javax-swing-app.iml" filepath="$PROJECT_DIR$/simple-phone-book-javax-swing-app.iml" />
     </modules>
   </component>
 </project>
