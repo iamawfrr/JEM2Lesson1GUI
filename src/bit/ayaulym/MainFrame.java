@@ -17,6 +17,7 @@ public class MainFrame extends JFrame {
         for (int i = 0; i < 100; i++) {
             ages[i] = i;
         }
+
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("BITLAB Application");
         setSize(500, 500);
@@ -103,11 +104,13 @@ public class MainFrame extends JFrame {
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         buttonPanel.add(addButton);
         buttonPanel.add(deleteButton);
+
         return buttonPanel;
     }
 
     private JButton getAddButton() {
         JButton addButton = new JButton("ADD CONTACT");
+
         addButton.addActionListener(e -> {
             String name = textField.getText();
             String phone = textField2.getText();
@@ -119,6 +122,7 @@ public class MainFrame extends JFrame {
                 agesBox.setSelectedIndex(0);
             }
         });
+
         return addButton;
     }
 }
